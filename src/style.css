@@ -24,19 +24,18 @@ ul {
 }
 
 .navigation {
-  position: sticky;
+  position: fixed;
+  z-index: 999;
   top: 0;
+  right: 0;
+  left: 0;
   display: flex;
+  width: 100%;
   height: 60px;
   align-items: center;
   justify-content: flex-end;
   padding: 0 20px;
-  transform: translateY(-100%);
-  transition: transform 0.3s ease-in-out;
-}
-
-.navigation.visible {
-  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
 }
 
 .navigation ul {
@@ -49,6 +48,7 @@ ul {
 
 .navigation li {
   margin-right: 20px;
+  list-style-type: none;
 }
 
 .navigation a {
@@ -63,6 +63,18 @@ ul {
 
 .navigation a:hover {
   color: #64ffda;
+}
+
+.scroll-down {
+  header {
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.scroll-up {
+  header {
+    filter: drop-shadow(0 -10px 20px rgb(170 170 170));
+  }
 }
 
 button {
