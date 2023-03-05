@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div>
-      <h1>
+      <h1 style={{ color: "#ccd6f6" }}>
         <span class="monogreen">01.</span> About Me
       </h1>
       <p>

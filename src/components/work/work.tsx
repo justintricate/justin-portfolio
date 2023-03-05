@@ -5,7 +5,7 @@ import Army from "./army";
 const Work = () => {
   return (
     <>
-      <h1>
+      <h1 style={{ color: "#ccd6f6" }}>
         <span class="monogreen">03.</span> Experience
       </h1>
       <Trybe />

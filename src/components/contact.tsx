@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div>
-      <h1>
+      <h1 style={{ color: "#ccd6f6" }}>
         <span class="monogreen">04.</span> Contact
       </h1>
       <h2>Get In Touch</h2>

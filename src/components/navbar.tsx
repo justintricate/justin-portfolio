@@ -1,23 +1,24 @@
 import { createSignal, createEffect } from "solid-js";
 
 const NavBar = () => {
-  const [scrolled, setScrolled] = createSignal(false);
+  const [showNav, setShowNav] = createSignal(true);
 
   const handleScroll = () => {
     const offset = window.scrollY;
     if (offset > 200) {
-      setScrolled(true);
+      setShowNav(true);
     } else {
-      setScrolled(false);
+      setShowNav(false);
     }
   };
 
   createEffect(() => {
     window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
-    <nav class="navigation">
+    <nav class={`navigation${showNav() ? " visible" : ""}`}>
       <ul>
         <li>
           <a href="#">
