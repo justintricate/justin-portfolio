@@ -1,7 +1,7 @@
 const Intro = () => {
   return (
     <div>
-      <p style={{ color: "#64ffda" }}>Hi, my name is</p>
+      <p class="monogreen">Hi, my name is</p>
       <h1>
         <p style={{ color: "#ccd6f6" }}>Justin Wooley</p>
         <p>I like to build things for the web.</p>

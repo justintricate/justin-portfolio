@@ -6,7 +6,7 @@ const Work = () => {
   return (
     <>
       <h1>
-        <span style={{ color: "#64ffda" }}>03.</span> Experience
+        <span class="monogreen">03.</span> Experience
       </h1>
       <Trybe />
       <PCB />

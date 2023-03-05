@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <div>
       <h1>
-        <span style={{ color: "#64ffda" }}>04.</span> Contact
+        <span class="monogreen">04.</span> Contact
       </h1>
       <h2>Get In Touch</h2>
       <p>
