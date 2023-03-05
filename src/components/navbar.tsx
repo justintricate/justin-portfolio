@@ -1,58 +1,39 @@
-import { createSignal, createEffect } from "solid-js";
+import { createEffect, createSignal } from "solid-js";
+import { navLinks } from "../config";
 
 const NavBar = () => {
-  let [lastScroll, setLastScroll] = createSignal(0);
-  const body = document.body;
+  const [lastScroll, setLastScroll] = createSignal(0);
+  const [scrollDirection, setScrollDirection] = createSignal("");
 
   createEffect(() => {
-    window.addEventListener("scroll", () => {
+    const handleScroll = () => {
       const currentScroll = window.pageYOffset;
       if (currentScroll <= 0) {
-        body.classList.remove("scroll-up");
+        setScrollDirection("");
         return;
       }
-      if (
-        currentScroll > Number(lastScroll) &&
-        !body.classList.contains("scroll-down")
-      ) {
-        body.classList.remove("scroll-up");
-        body.classList.add("scroll-down");
-      } else if (
-        currentScroll < Number(lastScroll) &&
-        body.classList.contains("scroll-down")
-      ) {
-        body.classList.remove("scroll-down");
-        body.classList.add("scroll-up");
+      if (currentScroll > lastScroll()) {
+        setScrollDirection("scroll-down");
+      } else {
+        setScrollDirection("scroll-up");
       }
       setLastScroll(currentScroll);
-    });
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
-    <header>
-      <ul class="navigation">
+    <ol class={`${scrollDirection()} navigation`}>
+      {navLinks.map(({ title, url }) => (
         <li>
-          <a href="#">
-            <span class="monogreen">01.</span> About
-          </a>
+          <a href={url}>{title}</a>
         </li>
-        <li>
-          <a href="#">
-            <span class="monogreen">02.</span> Projects
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span class="monogreen">03.</span> Experience
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span class="monogreen">04.</span> Contact
-          </a>
-        </li>
-      </ul>
-    </header>
+      ))}
+      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+        <button style={"margin-left: -20px"}>Resume</button>
+      </a>
+    </ol>
   );
 };
 

@@ -1,3 +1,5 @@
+import { email } from "../config.js";
+
 const Contact = () => {
   return (
     <div>
@@ -9,7 +11,7 @@ const Contact = () => {
         I am currently searching for new opportunities, and would love to chat.
         Drop me a note and I will get back to you!
       </p>
-      <a href="mailto:justindwooley@gmail.com">
+      <a href={`mailto:${email}`}>
         <button>Say Hello</button>
       </a>
     </div>

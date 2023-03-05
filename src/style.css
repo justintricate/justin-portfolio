@@ -23,6 +23,25 @@ ul {
   list-style-type: "▹";
 }
 
+ol {
+  padding-left: 0;
+  margin-left: 0;
+  counter-reset: item;
+  font-family: "Source Code Pro", monospace;
+  list-style-type: none;
+}
+
+ol li {
+  counter-increment: item;
+}
+
+ol li::before {
+  margin-right: -18px;
+  color: #64ffda;
+  content: counter(item, decimal-leading-zero) ". ";
+  font-size: 14px;
+}
+
 .navigation {
   position: fixed;
   z-index: 999;
@@ -34,11 +53,10 @@ ul {
   height: 60px;
   align-items: center;
   justify-content: flex-end;
-  padding: 0 20px;
   transition: all 0.3s ease-in-out;
 }
 
-.navigation ul {
+.navigation ol {
   display: flex;
   align-items: center;
   padding: 0;
@@ -52,9 +70,9 @@ ul {
 }
 
 .navigation a {
-  padding: 10px;
+  padding: 20px;
   color: #a8b2d1;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   letter-spacing: 1px;
   text-decoration: none;
@@ -66,24 +84,28 @@ ul {
 }
 
 .scroll-down {
-  header {
+  .navigation {
     transform: translate3d(0, -100%, 0);
   }
 }
 
-.scroll-up {
-  header {
+.scroll-up header {
+  .navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
     filter: drop-shadow(0 -10px 20px rgb(170 170 170));
   }
 }
 
 button {
-  padding: 10px;
+  padding: 12px;
   border: 1px solid #64ffda;
   border-radius: 4px;
   background-color: transparent;
   color: #64ffda;
   font-family: "Source Code Pro", monospace;
+  font-size: 16px;
 }
 
 button:hover {

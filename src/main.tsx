@@ -1,5 +1,4 @@
 import { render } from "solid-js/web";
-import "dracula-ui/styles/dracula-ui.css";
 import "./style.css";
 import NavBar from "./components/navbar";
 import Intro from "./components/intro";
