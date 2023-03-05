@@ -1,9 +1,9 @@
 const Intro = () => {
   return (
     <div>
-      <p>Hi, my name is</p>
+      <p style={{ color: "#64ffda" }}>Hi, my name is</p>
       <h1>
-        <p>Justin Wooley</p>
+        <p style={{ color: "#ccd6f6" }}>Justin Wooley</p>
         <p>I like to build things for the web.</p>
       </h1>
       <p>

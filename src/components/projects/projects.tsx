@@ -6,6 +6,9 @@ import Vapor from "./vapor";
 const Projects = () => {
   return (
     <>
+      <h1>
+        <span style={{ color: "#64ffda" }}>02.</span> Projects
+      </h1>
       <Halfsies />
       <SOS />
       <Vapor />

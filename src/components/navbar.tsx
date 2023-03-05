@@ -20,16 +20,24 @@ const NavBar = () => {
     <nav class="navigation">
       <ul>
         <li>
-          <a href="#">01. About</a>
+          <a href="#">
+            <span style={{ color: "#64ffda" }}>01.</span> About
+          </a>
         </li>
         <li>
-          <a href="#">02. Projects</a>
+          <a href="#">
+            <span style={{ color: "#64ffda" }}>02.</span> Projects
+          </a>
         </li>
         <li>
-          <a href="#">03. Experience</a>
+          <a href="#">
+            <span style={{ color: "#64ffda" }}>03.</span> Experience
+          </a>
         </li>
         <li>
-          <a href="#">04. Contact</a>
+          <a href="#">
+            <span style={{ color: "#64ffda" }}>04.</span> Contact
+          </a>
         </li>
       </ul>
     </nav>

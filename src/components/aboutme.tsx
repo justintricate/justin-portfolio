@@ -1,6 +1,9 @@
 const About = () => {
   return (
     <div>
+      <h1>
+        <span style={{ color: "#64ffda" }}>01.</span> About Me
+      </h1>
       <p>
         Hello! My name is Justin, and I enjoy creating websites and apps. When I
         was 9 years old, my dad took me to our local Half Price Books, and told
