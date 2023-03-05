@@ -1,7 +1,7 @@
 const Vapor = () => {
   return (
     <div>
-      <h1>Vapor</h1>
+      <h2>Vapor</h2>
       <p>
         A single page full stack eCommerce store utilizing the Best Buy API.
         Allows users to filter and search items, add to cart, and more.

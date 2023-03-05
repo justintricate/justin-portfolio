@@ -1,7 +1,7 @@
 const SOS = () => {
   return (
     <div>
-      <h1>Sink or Swim</h1>
+      <h2>Sink or Swim</h2>
       <p>
         A web app that uses machine learning to determine if a user would have
         survived the Titanic. Analyzes over 800 data points using modern data

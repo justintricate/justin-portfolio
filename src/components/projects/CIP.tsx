@@ -1,7 +1,7 @@
 const CIP = () => {
   return (
     <div>
-      <h1>Camera in Position</h1>
+      <h2>Camera in Position</h2>
       <p>
         A web app that helps players of "Rainbow Six: Siege" in their gameplay.
         Has served over 23,000 visitors since the site's inception, with 150,000

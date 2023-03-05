@@ -1,7 +1,7 @@
 const Halfsies = () => {
   return (
     <div>
-      <h1>Halfsies</h1>
+      <h2>Halfsies</h2>
       <p>
         An Android and iOS compatible mobile app that allows users to take a
         photo of a receipt and calculate splitting the bill. Uses Ocular
