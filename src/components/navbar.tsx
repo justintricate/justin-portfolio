@@ -40,8 +40,13 @@ const NavBar = () => {
             <NavLink href={url}>{title}</NavLink>
           </li>
         ))}
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-          <button style={"margin-left: -20px; margin-right: 20px"}>
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={"margin-left: -20px;padding:0"}
+        >
+          <button style={" margin-left: 1em; margin-right: 2.5em"}>
             Resume
           </button>
         </a>
