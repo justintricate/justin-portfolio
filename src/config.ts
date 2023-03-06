@@ -18,18 +18,18 @@ export const socialMedia = [
 export const navLinks = [
   {
     title: "About",
-    url: "/#about",
+    url: "#about",
   },
   {
     title: "Projects",
-    url: "/#projects",
+    url: "#projects",
   },
   {
     title: "Experience",
-    url: "/#jobs",
+    url: "#jobs",
   },
   {
     title: "Contact",
-    url: "/#contact",
+    url: "#contact",
   },
 ];

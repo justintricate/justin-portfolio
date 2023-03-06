@@ -8,7 +8,7 @@ register();
 const Work = () => {
   return (
     <>
-      <h1 class="component" style={{ color: "#ccd6f6" }}>
+      <h1 class="component" style={{ color: "#ccd6f6" }} id="jobs">
         <span class="monogreen">03.</span> Experience
       </h1>
       <swiper-container

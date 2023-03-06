@@ -9,7 +9,7 @@ register();
 const Projects = () => {
   return (
     <>
-      <h1 class="component" style={{ color: "#ccd6f6" }}>
+      <h1 class="component" style={{ color: "#ccd6f6" }} id="projects">
         <span class="monogreen">02.</span> Projects
       </h1>
       <swiper-container

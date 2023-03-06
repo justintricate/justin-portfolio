@@ -13,6 +13,11 @@
   text-size-adjust: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 28%;
+}
+
 a {
   color: inherit;
   cursor: pointer;
@@ -121,8 +126,8 @@ ol li::before {
 }
 
 .hide {
-  visibility: hidden;
   opacity: 0;
+  visibility: hidden;
 }
 
 .scroll-show {
@@ -132,10 +137,8 @@ ol li::before {
 
 .centered {
   align-items: center;
-
-  text-align: center;
-
   justify-content: center;
+  text-align: center;
 }
 
 .logo-icon {

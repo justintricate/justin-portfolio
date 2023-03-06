@@ -3,7 +3,7 @@ import { Icon } from "@iconify-icon/solid";
 const About = () => {
   return (
     <div class="component">
-      <h1 style={{ color: "#ccd6f6" }}>
+      <h1 style={{ color: "#ccd6f6" }} id="about">
         <span class="monogreen">01.</span> About Me
       </h1>
       <p>

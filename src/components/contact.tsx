@@ -2,7 +2,11 @@ import { email } from "../config.js";
 
 const Contact = () => {
   return (
-    <div class="component centered" style={{ "margin-bottom": "30%" }}>
+    <div
+      class="component centered"
+      style={{ "margin-bottom": "40%" }}
+      id="contact"
+    >
       <h1 style={{ color: "#ccd6f6", "margin-bottom": "5%" }}>
         <span class="monogreen">04.</span> Contact
       </h1>
