@@ -49,10 +49,17 @@ ol li::before {
   font-size: 4rem;
 }
 
+.about-list {
+  column-gap: 1em;
+  columns: 2;
+  list-style-position: inside;
+}
+
 .slide-container {
-  padding: 5%;
   padding-right: 10%;
   padding-left: 10%;
+  margin-top: 6%;
+  margin-bottom: 10%;
 }
 
 .subheader-style {
@@ -119,6 +126,12 @@ ol li::before {
 .scroll-show {
   background-color: #0a192f;
   box-shadow: 0 4px 10px rgb(0 0 0 / 40%);
+}
+
+.centered {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 body {

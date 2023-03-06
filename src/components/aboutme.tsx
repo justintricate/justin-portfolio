@@ -21,7 +21,7 @@ const About = () => {
         ready to bring my newfound skill set to your team.
       </p>
       <p>Here's a bit of what I've worked in recently:</p>
-      <ul>
+      <ul class="about-list">
         <li>JavaScript (ES6+)</li>
         <li>React</li>
         <li>React Native</li>

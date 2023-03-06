@@ -17,6 +17,10 @@ const Projects = () => {
         navigation="true"
         pagination="true"
         scrollbar="true"
+        style={{
+          "--swiper-navigation-color": "#64ffda",
+          "--swiper-pagination-color": "#ccd6f6",
+        }}
       >
         <swiper-slide>
           <div class="slide-container">
