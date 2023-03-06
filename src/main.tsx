@@ -1,4 +1,5 @@
 import { render } from "solid-js/web";
+import { Router, Routes, Route } from "@solidjs/router";
 import "./style.css";
 import NavBar from "./components/navbar";
 import Intro from "./components/intro";
@@ -20,4 +21,11 @@ const App = () => {
   );
 };
 
-render(() => <App />, document.getElementById("app") as HTMLElement);
+render(
+  () => (
+    <Router>
+      <App />
+    </Router>
+  ),
+  document.getElementById("app") as HTMLElement
+);

@@ -19,7 +19,9 @@
     "vite-plugin-solid": "^2.3.9"
   },
   "dependencies": {
+    "@solidjs/router": "^0.7.0",
     "dracula-ui": "^1.0.6",
-    "solid-js": "^1.5.7"
+    "solid-js": "^1.5.7",
+    "swiper": "^9.1.0"
   }
 }

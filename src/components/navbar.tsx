@@ -1,3 +1,4 @@
+import { NavLink } from "@solidjs/router";
 import { createEffect, createSignal } from "solid-js";
 import { navLinks } from "../config";
 
@@ -32,16 +33,20 @@ const NavBar = () => {
   }, []);
 
   return (
-    <ol class={`navigation ${scrollDirection()}`}>
-      {navLinks.map(({ title, url }) => (
-        <li>
-          <a href={url}>{title}</a>
-        </li>
-      ))}
-      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-        <button style={"margin-left: -20px; margin-right: 20px"}>Resume</button>
-      </a>
-    </ol>
+    <nav>
+      <ol class={`navigation ${scrollDirection()}`}>
+        {navLinks.map(({ title, url }) => (
+          <li>
+            <NavLink href={url}>{title}</NavLink>
+          </li>
+        ))}
+        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <button style={"margin-left: -20px; margin-right: 20px"}>
+            Resume
+          </button>
+        </a>
+      </ol>
+    </nav>
   );
 };
 
