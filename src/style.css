@@ -136,6 +136,10 @@ ol li::before {
   text-align: center;
 }
 
+.logo-icon {
+  margin-right: 0.5em;
+}
+
 body {
   align-items: center;
   justify-content: center;

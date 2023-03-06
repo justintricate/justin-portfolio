@@ -33,38 +33,31 @@ const About = () => {
       <p>Here's a bit of what I've worked in recently:</p>
       <ul class="about-list">
         <li>
-          <SiJavascript color="#ccd6f6" style={{ "margin-right": "0.5em" }} />
+          <Icon icon="logos:javascript" class="logo-icon" />
           JavaScript (ES6+)
         </li>
         <li>
-          <SiReact color="#ccd6f6" style={{ "margin-right": "0.5em" }} />
+          <Icon icon="logos:react" class="logo-icon" />
           React
         </li>
         <li>
-          <TbBrandReactNative
-            color="#ccd6f6"
-            style={{ "margin-right": "0.5em" }}
-          />
+          <Icon icon="logos:react" class="logo-icon" />
           React Native
         </li>
         <li>
-          <SiNodedotjs color="#ccd6f6" style={{ "margin-right": "0.5em" }} />
+          <Icon icon="vscode-icons:file-type-node" class="logo-icon" />
           Node.js
         </li>
         <li>
-          <SiTypescript color="#ccd6f6" style={{ "margin-right": "0.5em" }} />
+          <Icon icon="logos:typescript-icon" class="logo-icon" />
           TypeScript
         </li>
         <li>
-          <Icon
-            icon="logos:solidjs-icon"
-            color="#ccd6f6"
-            style={{ "margin-right": "0.5em" }}
-          />
+          <Icon icon="logos:solidjs-icon" class="logo-icon" />
           SolidJS
         </li>
         <li>
-          <SiSvelte color="#ccd6f6" style={{ "margin-right": "0.5em" }} />
+          <Icon icon="logos:svelte-icon" class="logo-icon" />
           Svelte
         </li>
       </ul>
