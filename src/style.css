@@ -121,8 +121,8 @@ ol li::before {
 }
 
 .hide {
-  opacity: 0;
   visibility: hidden;
+  opacity: 0;
 }
 
 .scroll-show {
@@ -132,8 +132,10 @@ ol li::before {
 
 .centered {
   align-items: center;
-  justify-content: center;
+
   text-align: center;
+
+  justify-content: center;
 }
 
 .logo-icon {

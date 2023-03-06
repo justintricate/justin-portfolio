@@ -1,11 +1,3 @@
-import {
-  SiSvelte,
-  SiTypescript,
-  SiNodedotjs,
-  SiReact,
-  SiJavascript,
-} from "solid-icons/si";
-import { TbBrandReactNative } from "solid-icons/tb";
 import { Icon } from "@iconify-icon/solid";
 
 const About = () => {
@@ -37,20 +29,12 @@ const About = () => {
           JavaScript (ES6+)
         </li>
         <li>
-          <Icon icon="logos:react" class="logo-icon" />
-          React
-        </li>
-        <li>
-          <Icon icon="logos:react" class="logo-icon" />
-          React Native
-        </li>
-        <li>
-          <Icon icon="vscode-icons:file-type-node" class="logo-icon" />
-          Node.js
-        </li>
-        <li>
           <Icon icon="logos:typescript-icon" class="logo-icon" />
           TypeScript
+        </li>
+        <li>
+          <Icon icon="logos:react" class="logo-icon" />
+          React
         </li>
         <li>
           <Icon icon="logos:solidjs-icon" class="logo-icon" />
@@ -59,6 +43,26 @@ const About = () => {
         <li>
           <Icon icon="logos:svelte-icon" class="logo-icon" />
           Svelte
+        </li>
+        <li>
+          <Icon icon="logos:react" class="logo-icon" />
+          React Native
+        </li>
+        <li>
+          <Icon icon="logos:redux" class="logo-icon" />
+          React Redux
+        </li>
+        <li>
+          <Icon icon="vscode-icons:file-type-node" class="logo-icon" />
+          Node.js
+        </li>
+        <li>
+          <Icon icon="simple-icons:express" class="logo-icon" />
+          Express
+        </li>
+        <li>
+          <Icon icon="logos:postgresql" class="logo-icon" />
+          PostgreSQL
         </li>
       </ul>
     </div>
