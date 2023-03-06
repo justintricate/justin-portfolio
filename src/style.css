@@ -49,6 +49,12 @@ ol li::before {
   font-size: 4rem;
 }
 
+.slide-container {
+  padding: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
 .subheader-style {
   font-size: 4rem;
 }

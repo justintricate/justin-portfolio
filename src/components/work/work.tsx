@@ -11,15 +11,26 @@ const Work = () => {
       <h1 class="component" style={{ color: "#ccd6f6" }}>
         <span class="monogreen">03.</span> Experience
       </h1>
-      <swiper-container>
+      <swiper-container
+        loop="true"
+        navigation="true"
+        pagination="true"
+        scrollbar="true"
+      >
         <swiper-slide>
-          <Trybe />
+          <div class="slide-container">
+            <Trybe />
+          </div>
         </swiper-slide>
         <swiper-slide>
-          <PCB />
+          <div class="slide-container">
+            <PCB />
+          </div>
         </swiper-slide>
         <swiper-slide>
-          <Army />
+          <div class="slide-container">
+            <Army />
+          </div>
         </swiper-slide>
       </swiper-container>
     </>

@@ -12,18 +12,31 @@ const Projects = () => {
       <h1 class="component" style={{ color: "#ccd6f6" }}>
         <span class="monogreen">02.</span> Projects
       </h1>
-      <swiper-container>
+      <swiper-container
+        loop="true"
+        navigation="true"
+        pagination="true"
+        scrollbar="true"
+      >
         <swiper-slide>
-          <Halfsies />
+          <div class="slide-container">
+            <Halfsies />
+          </div>
         </swiper-slide>
         <swiper-slide>
-          <SOS />
+          <div class="slide-container">
+            <SOS />
+          </div>
         </swiper-slide>
         <swiper-slide>
-          <Vapor />
+          <div class="slide-container">
+            <Vapor />
+          </div>
         </swiper-slide>
         <swiper-slide>
-          <CIP />
+          <div class="slide-container">
+            <CIP />
+          </div>
         </swiper-slide>
       </swiper-container>
     </>
