@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@iconify-icon/solid": "^1.0.7",
     "@types/node": "^18.14.6",
     "babel-preset-solid": "^1.5.7",
     "stylelint": "^15.2.0",
@@ -21,6 +22,7 @@
   "dependencies": {
     "@solidjs/router": "^0.7.0",
     "dracula-ui": "^1.0.6",
+    "solid-icons": "^1.0.4",
     "solid-js": "^1.5.7",
     "swiper": "^9.1.0"
   }

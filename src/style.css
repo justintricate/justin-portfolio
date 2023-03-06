@@ -53,6 +53,7 @@ ol li::before {
 .about-list {
   column-gap: 1em;
   columns: 2;
+  list-style: none;
   list-style-position: inside;
 }
 
