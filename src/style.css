@@ -98,7 +98,6 @@ ol li::before {
 }
 
 .navigation ol {
-  display: flex;
   align-items: center;
   padding: 0;
   margin: 0;
@@ -107,17 +106,30 @@ ol li::before {
 
 .navigation li {
   margin-right: 1.5rem;
+  color: #a8b2d1;
   list-style-type: none;
 }
 
 .navigation a {
   padding: 1.5rem;
-  color: #a8b2d1;
   font-size: 1rem;
   font-weight: bold;
   letter-spacing: normal;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.logo-icon {
+  color: #64ffda;
+}
+
+.icon-link {
+  order: -1;
+  margin-right: auto;
+}
+
+.logo-icon:hover {
+  transform: translateY(-3%);
 }
 
 .navigation a:hover {

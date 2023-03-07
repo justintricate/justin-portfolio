@@ -1,6 +1,7 @@
 import { NavLink } from "@solidjs/router";
 import { createEffect, createSignal } from "solid-js";
 import { navLinks } from "../config";
+import { Icon } from "@iconify-icon/solid";
 
 const handleNavItemClick = () => {
   setTimeout(() => {
@@ -42,6 +43,10 @@ const NavBar = () => {
   return (
     <nav>
       <ol class={`navigation ${scrollDirection()}`}>
+        <a href="#" class="icon-link">
+          <Icon icon="ic:twotone-code-off" width="4rem" class="logo-icon" />
+        </a>
+
         {navLinks.map(({ title, url }) => (
           <li>
             <NavLink href={url} onClick={() => handleNavItemClick()}>
