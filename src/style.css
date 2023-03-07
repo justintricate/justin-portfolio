@@ -110,6 +110,25 @@ ol li::before {
   list-style-type: none;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#my-photo img {
+  width: 300px;
+  height: auto;
+  margin-top: 6%;
+  margin-left: 5%;
+  filter: sepia(65%) saturate(150%) hue-rotate(178deg) brightness(90%)
+    contrast(100%) drop-shadow(16px 16px 0 black);
+  transition: all 0.3s ease;
+}
+
+#my-photo img:hover {
+  filter: none;
+}
+
 .navigation a {
   padding: 1.5rem;
   font-size: 1rem;

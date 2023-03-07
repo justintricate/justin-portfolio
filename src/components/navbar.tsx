@@ -44,7 +44,7 @@ const NavBar = () => {
     <nav>
       <ol class={`navigation ${scrollDirection()}`}>
         <a href="#" class="icon-link">
-          <Icon icon="ic:twotone-code-off" width="4rem" class="logo-icon" />
+          <Icon icon="ic:twotone-code-off" width="3rem" class="logo-icon" />
         </a>
 
         {navLinks.map(({ title, url }) => (
