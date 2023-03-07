@@ -2,6 +2,13 @@ import { NavLink } from "@solidjs/router";
 import { createEffect, createSignal } from "solid-js";
 import { navLinks } from "../config";
 
+const handleNavItemClick = () => {
+  setTimeout(() => {
+    document.querySelector(".navigation")?.classList.add("scroll-show");
+    document.querySelector(".navigation")?.classList.remove("hide");
+  }, 50); // delay in milliseconds
+};
+
 const NavBar = () => {
   const [lastScroll, setLastScroll] = createSignal(0);
   const [scrollDirection, setScrollDirection] = createSignal("");
@@ -37,7 +44,9 @@ const NavBar = () => {
       <ol class={`navigation ${scrollDirection()}`}>
         {navLinks.map(({ title, url }) => (
           <li>
-            <NavLink href={url}>{title}</NavLink>
+            <NavLink href={url} onClick={() => handleNavItemClick()}>
+              {title}
+            </NavLink>
           </li>
         ))}
         <a

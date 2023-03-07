@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       class="component centered"
-      style={{ "margin-bottom": "40%" }}
+      style={{ "margin-bottom": "45%" }}
       id="contact"
     >
       <h1 style={{ color: "#ccd6f6", "margin-bottom": "5%" }}>
