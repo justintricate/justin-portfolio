@@ -2,6 +2,7 @@ import CIP from "./CIP";
 import Halfsies from "./halfsies";
 import SOS from "./sinkorswim";
 import Vapor from "./vapor";
+import { Icon } from "@iconify-icon/solid";
 import { register } from "swiper/element/bundle";
 
 register();
