@@ -11,7 +11,7 @@ const Contact = () => {
         <span class="monogreen">04.</span> Contact
       </h1>
       <h2 class="centered">Get In Touch</h2>
-      <p class="centered">
+      <p class="centered" style={{ "margin-inline": "20%" }}>
         I am currently searching for new opportunities, and would love to chat.
         Whether you have a question, a project in mind, or just want to say hi,
         feel free to drop me a note and I'll get back to you as soon as I can!

@@ -166,8 +166,6 @@ ol li::before {
 }
 
 .centered {
-  align-items: center;
-  justify-content: center;
   text-align: center;
 }
 
