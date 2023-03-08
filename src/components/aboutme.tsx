@@ -71,6 +71,10 @@ const About = () => {
               <Icon icon="logos:postgresql" class="logo-icon" />
               PostgreSQL
             </li>
+            <li>
+              <Icon icon="logos:python" class="logo-icon" />
+              Python
+            </li>
           </ul>
         </div>
         <div id="my-photo">
