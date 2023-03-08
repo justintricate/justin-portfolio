@@ -9,9 +9,9 @@ const Intro = () => {
         </div>
       </h1>
       <p class="intro-p-style">
-        I am a full stack software engineer passionate about learning, and
-        excited about building exciting digital experiences. Currently looking
-        for my next adventure.
+        I am a full stack software engineer passionate about learning, and and
+        building exciting digital experiences. Currently looking for my next
+        adventure.
       </p>
     </div>
   );

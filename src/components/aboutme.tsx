@@ -13,9 +13,9 @@ const About = () => {
             When I was 9 years old, my dad took me to our local Half Price
             Books, and told me I could pick out one book of my choosing. My
             selection was a C++ tutorial book. (This is a true story!) While I
-            did not end becoming a 9-year old C++ prodigy, this would be the
+            did not end up becoming a 9-year-old C++ prodigy, this would be the
             start of my interest in software engineering. Eventually, this led
-            into creating custom Warcraft 3 maps, styling my MySpace/Tumblr, and
+            to creating custom Warcraft 3 maps, styling my MySpace/Tumblr, and
             more.
           </p>
           <p>

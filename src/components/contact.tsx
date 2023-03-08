@@ -14,7 +14,7 @@ const Contact = () => {
       <p class="centered" style={{ "margin-inline": "20%" }}>
         I am currently searching for new opportunities, and would love to chat.
         Whether you have a question, a project in mind, or just want to say hi,
-        feel free to drop me a note and I'll get back to you as soon as I can!
+        feel free to drop me a note-- I'll get back to you as soon as I can!
       </p>
       <a href={`mailto:${email}`}>
         <button class="centered" style={{ "margin-top": "4%" }}>
