@@ -60,6 +60,15 @@ h3 {
   font-size: 4rem;
 }
 
+.subheader-style {
+  font-size: 3.5rem;
+}
+
+.intro-p-style {
+  margin-right: 50%;
+  font-size: 1rem;
+}
+
 .about-list {
   column-gap: 1em;
   columns: 2;
@@ -72,15 +81,6 @@ h3 {
   padding-left: 10%;
   margin-top: 5%;
   margin-bottom: 12%;
-}
-
-.subheader-style {
-  font-size: 4rem;
-}
-
-.intro-p-style {
-  margin-right: 50%;
-  font-size: 1rem;
 }
 
 .component {
