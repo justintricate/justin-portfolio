@@ -296,11 +296,8 @@ button:hover {
   font-size: 1rem;
 }
 
-@media (max-width: 1280px) {
-  body {
-    margin-inline: 5%;
-  }
-}
+/* @media (max-width: 1280px) {
+} */
 
 @media (max-width: 1024px) {
   body {
