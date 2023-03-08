@@ -296,32 +296,45 @@ button:hover {
   font-size: 1rem;
 }
 
-@media (max-width: 320px) {
-  /* smartphones, iPhone, portrait 480x320 phones */
+@media (max-width: 1280px) {
+  body {
+    margin-inline: 5%;
+  }
 }
 
-@media (max-width: 480px) {
-  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-}
-
-@media (max-width: 640px) {
-  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (max-width: 1024px) {
+  body {
+    margin-inline: 8%;
+  }
 }
 
 @media (max-width: 960px) {
-  ol li::before {
-    display: none;
+  body {
+    margin-inline: 10%;
   }
+}
 
+/* Navigation is hidden from here downward */
+@media (max-width: 867px) {
   .navigation {
     display: none;
   }
 }
 
-@media (max-width: 1024px) {
-  /* big landscape tablets, laptops, and desktops */
+@media (max-width: 640px) {
+  body {
+    margin-inline: 5%;
+  }
 }
 
-@media (max-width: 1280px) {
-  /* hi-res laptops and desktops */
+@media (max-width: 480px) {
+  body {
+    margin-inline: 6%;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    margin-inline: 5%;
+  }
 }
