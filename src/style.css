@@ -160,14 +160,6 @@ h3 {
   transition: all 0.3s ease;
 }
 
-.project-photo-right img:hover {
-  filter: none;
-}
-
-.project-photo-left {
-  margin-right: 6%;
-}
-
 .project-photo-left img {
   max-width: 100%;
   height: auto;
@@ -175,6 +167,14 @@ h3 {
   filter: sepia(65%) saturate(150%) hue-rotate(178deg) brightness(90%)
     contrast(100%) drop-shadow(16px 16px 0 hsl(216deg 65% 6%));
   transition: all 0.3s ease;
+}
+
+.project-photo-right img:hover {
+  filter: none;
+}
+
+.project-photo-left {
+  margin-right: 6%;
 }
 
 .project-photo-left img:hover {
@@ -204,17 +204,9 @@ h3 {
   text-transform: uppercase;
 }
 
-.logo-icon {
-  color: #64ffda;
-}
-
 .icon-link {
   order: -1;
   margin-right: auto;
-}
-
-.logo-icon:hover {
-  transform: translateY(-5%);
 }
 
 .navigation a:hover {
@@ -237,6 +229,11 @@ h3 {
 
 .logo-icon {
   margin-right: 0.5em;
+  color: #64ffda;
+}
+
+.logo-icon:hover {
+  transform: translateY(-5%);
 }
 
 body {
