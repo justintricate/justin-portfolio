@@ -63,6 +63,7 @@ h3 {
 .subheader-style {
   margin-bottom: 4%;
   font-size: clamp(16px, 4rem, 4vw);
+  line-height: 52px;
 }
 
 .intro-p-style {
@@ -84,6 +85,11 @@ h3 {
   margin-bottom: 12%;
 }
 
+.project-container {
+  margin-top: 5%;
+  margin-bottom: 12%;
+}
+
 .component {
   margin-top: 50%;
 }
@@ -95,7 +101,6 @@ h3 {
   right: 0;
   left: 0;
   display: flex;
-  width: 100%;
   height: 4rem;
   align-items: center;
   justify-content: flex-end;
@@ -111,10 +116,44 @@ h3 {
   list-style: none;
 }
 
+.navigation a {
+  padding: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-link {
+  order: -1;
+  margin-right: auto;
+}
+
+.navigation a:hover {
+  color: #64ffda;
+}
+
 .navigation li {
   margin-right: 1.5rem;
   color: #a8b2d1;
   list-style-type: none;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.nav-links {
+  all: inherit;
+}
+
+.hamburger-nav-visible + .nav-links {
+  position: fixed;
+  display: block;
+  margin-top: 9%;
+  float: right;
+  text-align: right;
 }
 
 .flex-container {
@@ -196,24 +235,6 @@ h3 {
   filter: none;
 }
 
-.navigation a {
-  padding: 1.5rem;
-  font-size: 1rem;
-  font-weight: bold;
-  letter-spacing: normal;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.icon-link {
-  order: -1;
-  margin-right: auto;
-}
-
-.navigation a:hover {
-  color: #64ffda;
-}
-
 .hide {
   opacity: 0;
   visibility: hidden;
@@ -272,20 +293,42 @@ button:hover {
   font-size: 1rem;
 }
 
-@media (max-width: 572px) {
-  .navigation {
+@media (max-width: 823px) {
+  ol li::before {
     display: none;
   }
 }
 
+@media (max-width: 484px) {
+  body {
+    margin-top: 30%;
+  }
+}
+
 @media (max-width: 745px) {
-  .icon-link {
+  .navigation {
+    justify-content: space-around;
+  }
+
+  .nav-links {
     display: none;
+  }
+
+  .hamburger-menu {
+    display: inline-flex;
+    margin-right: 5%;
   }
 }
 
 @media (max-width: 823px) {
   ol li::before {
     display: none;
+  }
+}
+
+@media (max-width: 810px) {
+  body {
+    margin-right: 15%;
+    margin-left: 15%;
   }
 }

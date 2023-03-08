@@ -13,37 +13,22 @@ const Projects = () => {
       <h1 class="component" style={{ color: "#ccd6f6" }} id="projects">
         <span class="monogreen">02.</span> Projects
       </h1>
-      {/* <swiper-container
-        loop="true"
-        navigation="true"
-        pagination="true"
-        scrollbar="true"
-        style={{
-          "--swiper-navigation-color": "#64ffda",
-          "--swiper-pagination-color": "#ccd6f6",
-        }}
-      > */}
-      {/* <swiper-slide> */}
-      <div class="slide-container">
+
+      <div class="project-container">
         <Halfsies />
       </div>
-      {/* </swiper-slide>
-        <swiper-slide> */}
-      <div class="slide-container">
+
+      <div class="project-container">
         <SOS />
       </div>
-      {/* </swiper-slide>
-        <swiper-slide> */}
-      <div class="slide-container">
+
+      <div class="project-container">
         <Vapor />
       </div>
-      {/* </swiper-slide>
-        <swiper-slide> */}
-      <div class="slide-container">
+
+      <div class="project-container">
         <CIP />
       </div>
-      {/* </swiper-slide>
-      </swiper-container> */}
     </>
   );
 };
