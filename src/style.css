@@ -115,13 +115,73 @@ ol li::before {
   flex-direction: row;
 }
 
+.ext-gh {
+  display: flex;
+  padding-top: 2%;
+  margin-left: 4%;
+}
+
+.project-link:hover {
+  color: #64ffda;
+  transform: translateY(-2%);
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 3%;
+}
+
+.title-container h2 {
+  padding: 0%;
+  margin-top: 0;
+  margin-right: 0%;
+  margin-bottom: 0;
+  font-size: 1.7rem;
+}
+
+.project-photo-right {
+  margin-left: 5%;
+}
+
+.project-photo-right img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 6%;
+  filter: sepia(65%) saturate(150%) hue-rotate(178deg) brightness(90%)
+    contrast(100%) drop-shadow(16px 16px 0 hsl(216deg 65% 6%));
+  transition: all 0.3s ease;
+}
+
+.project-photo-right img:hover {
+  filter: none;
+}
+
+.project-photo-left {
+  margin-right: 5%;
+}
+
+.project-photo-left img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 6%;
+  filter: sepia(65%) saturate(150%) hue-rotate(178deg) brightness(90%)
+    contrast(100%) drop-shadow(16px 16px 0 hsl(216deg 65% 6%));
+  transition: all 0.3s ease;
+}
+
+.project-photo-left img:hover {
+  filter: none;
+}
+
 #my-photo img {
   width: 300px;
   height: auto;
   margin-top: 6%;
   margin-left: 5%;
   filter: sepia(65%) saturate(150%) hue-rotate(178deg) brightness(80%)
-    contrast(100%) drop-shadow(16px 16px 0 hsl(216deg 65% 6%));
+    contrast(100%) drop-shadow(16px 16px 0 hsl(216deg 67% 6%));
   transition: all 0.3s ease;
 }
 
@@ -148,7 +208,7 @@ ol li::before {
 }
 
 .logo-icon:hover {
-  transform: translateY(-3%);
+  transform: translateY(-5%);
 }
 
 .navigation a:hover {

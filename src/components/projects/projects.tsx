@@ -13,7 +13,7 @@ const Projects = () => {
       <h1 class="component" style={{ color: "#ccd6f6" }} id="projects">
         <span class="monogreen">02.</span> Projects
       </h1>
-      <swiper-container
+      {/* <swiper-container
         loop="true"
         navigation="true"
         pagination="true"
@@ -22,28 +22,28 @@ const Projects = () => {
           "--swiper-navigation-color": "#64ffda",
           "--swiper-pagination-color": "#ccd6f6",
         }}
-      >
-        <swiper-slide>
-          <div class="slide-container">
-            <Halfsies />
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="slide-container">
-            <SOS />
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="slide-container">
-            <Vapor />
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="slide-container">
-            <CIP />
-          </div>
-        </swiper-slide>
-      </swiper-container>
+      > */}
+      {/* <swiper-slide> */}
+      <div class="slide-container">
+        <Halfsies />
+      </div>
+      {/* </swiper-slide>
+        <swiper-slide> */}
+      <div class="slide-container">
+        <SOS />
+      </div>
+      {/* </swiper-slide>
+        <swiper-slide> */}
+      <div class="slide-container">
+        <Vapor />
+      </div>
+      {/* </swiper-slide>
+        <swiper-slide> */}
+      <div class="slide-container">
+        <CIP />
+      </div>
+      {/* </swiper-slide>
+      </swiper-container> */}
     </>
   );
 };
