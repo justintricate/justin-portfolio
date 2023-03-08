@@ -78,7 +78,7 @@ const About = () => {
           </ul>
         </div>
         <div id="my-photo">
-          <img src="public/me.webp" alt="A photo of Justin Wooley smiling." />
+          <img src="/me.webp" alt="A photo of Justin Wooley smiling." />
         </div>
       </div>
     </div>

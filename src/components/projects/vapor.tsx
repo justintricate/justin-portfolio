@@ -5,7 +5,7 @@ const Vapor = () => {
     <div class="flex-container">
       <div class="project-photo-left">
         <img
-          src="public/vaporss.webp"
+          src="/vaporss.webp"
           alt="Screenshot of the website 'Camera in Position.'"
         />
       </div>

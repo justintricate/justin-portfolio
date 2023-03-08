@@ -55,7 +55,7 @@ const CIP = () => {
       </div>
       <div class="project-photo-right">
         <img
-          src="public/CIPss.webp"
+          src="/CIPss.webp"
           alt="Screenshot of the website 'Camera in Position.'"
         />
       </div>

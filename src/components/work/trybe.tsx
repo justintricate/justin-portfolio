@@ -1,7 +1,10 @@
 const Trybe = () => {
   return (
     <div>
-      <h2>Operations Manager @ Trybe Payment Solutions</h2>
+      <h2>
+        Operations Manager <span class="at-symbol">@</span> Trybe Payment
+        Solutions
+      </h2>
       <h3>2022 - 2022</h3>
       <ul>
         <li>Created policy/SOP infrastructure for early-stage startup</li>

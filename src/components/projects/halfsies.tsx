@@ -5,7 +5,7 @@ const Halfsies = () => {
     <div class="flex-container">
       <div class="project-photo-left">
         <img
-          src="public/halfsiesss.webp"
+          src="/halfsiesss.webp"
           alt="Screenshot of the landing page for the 'Halfsies' website."
         />
       </div>

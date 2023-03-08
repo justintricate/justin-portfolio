@@ -1,7 +1,10 @@
 const Army = () => {
   return (
     <div>
-      <h2>68W Combat Medic Specialist @ United States Army</h2>
+      <h2>
+        68W Combat Medic Specialist <span class="at-symbol">@</span> United
+        States Army
+      </h2>
       <h3>2011 - 2017</h3>
       <ul>
         <li>

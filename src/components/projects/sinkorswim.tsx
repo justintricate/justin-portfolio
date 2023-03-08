@@ -59,7 +59,7 @@ const SOS = () => {
       </div>
       <div class="project-photo-right">
         <img
-          src="public/sinkorswimss.webp"
+          src="/sinkorswimss.webp"
           alt="Screenshot of the website 'Camera in Position.'"
         />
       </div>

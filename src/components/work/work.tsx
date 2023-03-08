@@ -15,10 +15,12 @@ const Work = () => {
         loop="true"
         navigation="true"
         pagination="true"
+        clickable="true"
         scrollbar="true"
         style={{
           "--swiper-navigation-color": "#64ffda",
-          "--swiper-pagination-color": "#ccd6f6",
+          "--swiper-pagination-color": "#64ffda",
+          "--swiper-pagination-bullet-inactive-color": "#ccd6f6",
         }}
       >
         <swiper-slide>
