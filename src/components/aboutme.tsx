@@ -60,6 +60,10 @@ const About = () => {
               Node.js
             </li>
             <li>
+              <Icon icon="logos:google-cloud" class="logo-icon" />
+              Google Cloud Vision AI
+            </li>
+            <li>
               <Icon icon="simple-icons:express" class="logo-icon" />
               Express
             </li>

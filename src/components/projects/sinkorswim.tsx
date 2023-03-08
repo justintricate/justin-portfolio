@@ -44,16 +44,16 @@ const SOS = () => {
             Python
           </li>
           <li>
-            <Icon icon="simple-icons:scikitlearn" class="logo-icon" />
-            scikit-learn
+            <Icon icon="logos:numpy" class="logo-icon" />
+            NumPy
           </li>
           <li>
             <Icon icon="simple-icons:pandas" class="logo-icon" />
             Pandas
           </li>
           <li>
-            <Icon icon="logos:numpy" class="logo-icon" />
-            NumPy
+            <Icon icon="simple-icons:scikitlearn" class="logo-icon" />
+            scikit-learn
           </li>
         </ul>
       </div>

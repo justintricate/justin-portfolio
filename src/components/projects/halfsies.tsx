@@ -53,15 +53,15 @@ const Halfsies = () => {
             <Icon icon="logos:react" class="logo-icon" />
             React Native
           </li>
-          <li>
-            <Icon icon="logos:google-cloud" class="logo-icon" />
-            Cloud Vision AI
-          </li>
+
           <li>
             <Icon icon="logos:expo-icon" class="logo-icon" />
             Expo
           </li>
-
+          <li>
+            <Icon icon="logos:google-cloud" class="logo-icon" />
+            Cloud Vision AI
+          </li>
           <li>
             <Icon icon="logos:firebase" class="logo-icon" />
             Firebase

@@ -53,6 +53,10 @@ const Vapor = () => {
             React
           </li>
           <li>
+            <Icon icon="logos:redux" class="logo-icon" />
+            React Redux
+          </li>
+          <li>
             <Icon icon="vscode-icons:file-type-node" class="logo-icon" />
             Node.js
           </li>
@@ -63,10 +67,6 @@ const Vapor = () => {
           <li>
             <Icon icon="logos:postgresql" class="logo-icon" />
             PostgreSQL
-          </li>
-          <li>
-            <Icon icon="logos:redux" class="logo-icon" />
-            React Redux
           </li>
         </ul>
       </div>
