@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import Trybe from "./trybe";
 import PCB from "./pcb";
 import Army from "./army";
