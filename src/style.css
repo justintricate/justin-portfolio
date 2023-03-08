@@ -57,11 +57,12 @@ h3 {
   margin-top: 4%;
   margin-bottom: -1%;
   color: #ccd6f6;
-  font-size: 4rem;
+  font-size: clamp(16px, 5rem, 5vw);
 }
 
 .subheader-style {
-  font-size: 3.5rem;
+  margin-bottom: 4%;
+  font-size: clamp(16px, 4rem, 4vw);
 }
 
 .intro-p-style {
@@ -182,7 +183,7 @@ h3 {
 }
 
 #my-photo img {
-  width: 300px;
+  max-width: 300px;
   height: auto;
   margin-top: 6%;
   margin-left: 5%;
@@ -264,8 +265,27 @@ button:hover {
 .monogreen {
   color: #64ffda;
   font-family: "Source Code Pro", monospace;
+  font-size: clamp(12px, 1rem, 1vw);
 }
 
 .at-symbol {
   font-size: 1rem;
+}
+
+@media (max-width: 572px) {
+  .navigation {
+    display: none;
+  }
+}
+
+@media (max-width: 745px) {
+  .icon-link {
+    display: none;
+  }
+}
+
+@media (max-width: 823px) {
+  ol li::before {
+    display: none;
+  }
 }
