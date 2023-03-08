@@ -1,5 +1,3 @@
-import { Icon } from "@iconify-icon/solid";
-
 export const email: string = "justindwooley@gmail.com";
 
 export const socialMedia = [

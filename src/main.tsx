@@ -1,5 +1,5 @@
 import { render } from "solid-js/web";
-import { Router, Routes, Route } from "@solidjs/router";
+import { Router } from "@solidjs/router";
 import "./style.css";
 import NavBar from "./components/navbar";
 import Intro from "./components/intro";
