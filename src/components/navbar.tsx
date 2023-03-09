@@ -42,9 +42,15 @@ const NavBar = () => {
 
   return (
     <ol class={`navigation ${scrollDirection()}`}>
-      <a href="#" class="icon-link">
-        <Icon icon="ic:twotone-code-off" width="48" class="logo-icon" />
-      </a>
+      <li class="home-logo">
+        <a
+          href="#"
+          class="icon-link"
+          aria-label="A logo icon that returns you to the top of the page."
+        >
+          <Icon icon="ic:twotone-code-off" width="48" class="logo-icon" />
+        </a>
+      </li>
 
       {navLinks.map(({ title, url }) => (
         <li>
@@ -53,14 +59,16 @@ const NavBar = () => {
           </NavLink>
         </li>
       ))}
-      <a
-        href="/resume.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={"margin-left: -20px;padding:0"}
-      >
-        <button style={" margin-left: 1em; margin-right: 2.5em"}>Resume</button>
-      </a>
+      <li class="resume-li">
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="A button that opens Justin Wooley's PDF resume."
+        >
+          <button>Resume</button>
+        </a>
+      </li>
     </ol>
   );
 };

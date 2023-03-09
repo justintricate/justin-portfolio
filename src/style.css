@@ -107,7 +107,7 @@ h3 {
   display: flex;
   height: 4rem;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 1rem;
   margin: 0;
   transition: all 0.3s ease-in-out;
@@ -120,6 +120,11 @@ h3 {
   list-style: none;
 }
 
+.navigation li {
+  color: #a8b2d1;
+  list-style-type: none;
+}
+
 .navigation a {
   padding: 1.5rem;
   font-size: 1rem;
@@ -127,6 +132,10 @@ h3 {
   letter-spacing: normal;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.navigation .home-logo {
+  margin-right: auto;
 }
 
 .social-media a {
@@ -144,10 +153,12 @@ h3 {
   color: #64ffda;
 }
 
-.navigation li {
-  margin-right: 1.5rem;
-  color: #a8b2d1;
-  list-style-type: none;
+.resume-li::before {
+  content: "";
+}
+
+.home-logo::before {
+  content: "";
 }
 
 .nav-drawer {
@@ -404,7 +415,7 @@ button:hover {
   }
 }
 
-@media (max-width: 706px) {
+@media (max-width: 735px) {
   body {
     margin-inline: 7%;
   }
