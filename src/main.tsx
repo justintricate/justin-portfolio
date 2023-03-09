@@ -8,10 +8,12 @@ import Work from "./components/work/work";
 import Projects from "./components/projects/projects";
 import Contact from "./components/contact";
 import NavDrawer from "./components/mobile/navdrawer";
+import Social from "./components/social";
 
 const App = () => {
   return (
     <>
+      <Social />
       <NavDrawer />
       <NavBar />
       <Intro />

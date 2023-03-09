@@ -196,7 +196,7 @@ h3 {
 
 .project-link:hover {
   color: #64ffda;
-  transform: translateY(-2%);
+  transform: translateY(-3%);
 }
 
 .title-container {
@@ -295,7 +295,7 @@ h3 {
 }
 
 .logo-icon:hover {
-  transform: translateY(-5%);
+  transform: translateY(-7%);
 }
 
 body {
@@ -329,8 +329,41 @@ button:hover {
   font-size: clamp(12px, 1rem, 1vw);
 }
 
-.at-symbol {
-  font-size: 1rem;
+.social-media {
+  position: fixed;
+  bottom: 0;
+  left: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-bottom: 16px;
+  background-color: #fff0;
+}
+
+.social-media a {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin-bottom: 50%;
+  margin-left: 10%;
+  color: #8892b0;
+  font-size: 1.5rem;
+  transition: color 0.2s ease;
+}
+
+.social-media a:hover {
+  color: #64ffda;
+  transform: translateY(-4%);
+}
+
+.social-media::before {
+  position: absolute;
+  top: 0;
+  left: -2px;
+  width: 1px;
+  height: 100%;
+  background-color: #8892b0;
+  content: "";
 }
 
 @media (max-width: 1280px) {
