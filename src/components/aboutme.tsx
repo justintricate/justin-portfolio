@@ -1,4 +1,5 @@
 import { Icon } from "@iconify-icon/solid";
+import { technologies } from "../config";
 
 const About = () => {
   return (
@@ -27,54 +28,12 @@ const About = () => {
           </p>
           <p>Here's a bit of what I've worked in recently:</p>
           <ul class="about-list">
-            <li>
-              <Icon icon="logos:javascript" class="logo-icon" />
-              JavaScript (ES6+)
-            </li>
-            <li>
-              <Icon icon="logos:typescript-icon" class="logo-icon" />
-              TypeScript
-            </li>
-            <li>
-              <Icon icon="logos:react" class="logo-icon" />
-              React
-            </li>
-            <li>
-              <Icon icon="logos:solidjs-icon" class="logo-icon" />
-              SolidJS
-            </li>
-            <li>
-              <Icon icon="logos:svelte-icon" class="logo-icon" />
-              Svelte
-            </li>
-            <li>
-              <Icon icon="logos:react" class="logo-icon" />
-              React Native
-            </li>
-            <li>
-              <Icon icon="logos:redux" class="logo-icon" />
-              React Redux
-            </li>
-            <li>
-              <Icon icon="vscode-icons:file-type-node" class="logo-icon" />
-              Node.js
-            </li>
-            <li>
-              <Icon icon="logos:google-cloud" class="logo-icon" />
-              Google Cloud Vision AI
-            </li>
-            <li>
-              <Icon icon="simple-icons:express" class="logo-icon" />
-              Express
-            </li>
-            <li>
-              <Icon icon="logos:postgresql" class="logo-icon" />
-              PostgreSQL
-            </li>
-            <li>
-              <Icon icon="logos:python" class="logo-icon" />
-              Python
-            </li>
+            {technologies.map(({ title, icon }) => (
+              <li>
+                <Icon icon={icon} class="logo-icon" />
+                {title}
+              </li>
+            ))}
           </ul>
         </div>
         <div id="my-photo">

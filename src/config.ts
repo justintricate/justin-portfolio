@@ -35,4 +35,55 @@ export const navLinks = [
   },
 ];
 
+export const technologies = [
+  {
+    title: "JavaScript (ES6+)",
+    icon: "logos:javascript",
+  },
+  {
+    title: "TypeScript",
+    icon: "logos:typescript-icon",
+  },
+  {
+    title: "React",
+    icon: "logos:react",
+  },
+  {
+    title: "SolidJS",
+    icon: "logos:solidjs-icon",
+  },
+  {
+    title: "Svelte",
+    icon: "logos:svelte-icon",
+  },
+  {
+    title: "React Native",
+    icon: "logos:react",
+  },
+  {
+    title: "React Redux",
+    icon: "logos:redux",
+  },
+  {
+    title: "Node.js",
+    icon: "vscode-icons:file-type-node",
+  },
+  {
+    title: "Google Cloud Vision AI",
+    icon: "logos:google-cloud",
+  },
+  {
+    title: "Express",
+    icon: "simple-icons:express",
+  },
+  {
+    title: "PostgreSQL",
+    icon: "logos:postgresql",
+  },
+  {
+    title: "Python",
+    icon: "logos:python",
+  },
+];
+
 export const email: string = "justindwooley@gmail.com";
