@@ -15,7 +15,8 @@ const About = () => {
             selection was a C++ tutorial book. While I did not end up becoming a
             9-year-old C++ prodigy, this would be the start of my interest in
             software engineering. Eventually, this led to creating custom
-            Warcraft 3 maps, styling my MySpace/Tumblr, and more.
+            Warcraft 3 maps, customizing my social media pages in crude HTML,
+            and more.
           </p>
           <p>
             Fast-forward to now, I have recently undergone a career change, and
