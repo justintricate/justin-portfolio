@@ -8,4 +8,4 @@
 
 `npm run dev`: Uses Vite to start server
 
-`npm run gulp`: Begins Gulp's 'watch' task which will ensure your CSS is updating as you save styles.css.
+`npm run watch`: Begins Gulp's 'watch' task which will ensure your CSS is updating as you save styles.css.
