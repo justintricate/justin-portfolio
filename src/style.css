@@ -65,6 +65,7 @@ h3 {
 }
 
 .subheader-style {
+  margin-top: 3vw;
   margin-bottom: 4%;
   font-size: clamp(16px, 4rem, 4vw);
   line-height: 52px;
@@ -139,18 +140,7 @@ h3 {
 }
 
 .nav-drawer {
-  position: fixed;
-  z-index: 999;
-  top: 0;
-  right: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin: 0;
-  margin-top: 16px;
-  margin-inline: 16px;
-  transition: all 0.3s ease-in-out;
+  display: none;
 }
 
 .drawer-container {
@@ -212,6 +202,7 @@ h3 {
 .title-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0;
   margin-bottom: 3%;
 }
@@ -342,8 +333,11 @@ button:hover {
   font-size: 1rem;
 }
 
-/* @media (max-width: 1280px) {
-} */
+@media (max-width: 1280px) {
+  body {
+    margin-inline: 15%;
+  }
+}
 
 @media (max-width: 1024px) {
   body {
@@ -353,31 +347,167 @@ button:hover {
 
 @media (max-width: 960px) {
   body {
-    margin-inline: 10%;
+    margin-inline: 8%;
   }
 }
 
-/* Navigation is hidden from here downward */
-@media (max-width: 867px) {
+@media (max-width: 706px) {
+  body {
+    margin-inline: 7%;
+  }
+
   .navigation {
     display: none;
   }
+
+  .nav-drawer {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    margin-top: 16px;
+    margin-inline: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .drawer-container {
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: rgb(10 25 47 / 50%);
+    color: #ccd6f6;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .drawer-container.show {
+    transform: translateX(0);
+  }
+
+  .drawer-container ul {
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    list-style: none;
+  }
+
+  .drawer-container li {
+    margin-top: 25%;
+    margin-bottom: 25%;
+    text-align: center;
+  }
+
+  .subheader-style {
+    line-height: 32px;
+  }
+
+  .intro-p-style {
+    margin-right: 40%;
+    font-size: 1rem;
+  }
 }
 
+/* this is where images should stop being side by side */
 @media (max-width: 640px) {
   body {
     margin-inline: 5%;
+  }
+
+  .subheader-style {
+    line-height: 24px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-photo-right {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .project-photo-left {
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .project-photo-left img {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    filter: none;
+  }
+
+  .project-photo-right img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    filter: none;
+  }
+
+  #my-photo img {
+    max-width: 90%;
+    height: auto;
+    margin-top: 6%;
+    filter: none;
+  }
+
+  .intro-p-style {
+    margin-right: 40%;
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 480px) {
   body {
-    margin-inline: 6%;
+    margin-inline: 24px;
+  }
+
+  .subheader-style {
+    line-height: 20px;
+  }
+
+  .intro-p-style {
+    margin-right: 40%;
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 320px) {
   body {
-    margin-inline: 5%;
+    margin-inline: 16px;
+  }
+
+  .subheader-style {
+    line-height: 16px;
+  }
+
+  .intro-p-style {
+    margin-right: 20%;
+    font-size: 1rem;
   }
 }
