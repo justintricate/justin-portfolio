@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite && npm run gulp",
-    "build": "gulp -f gulpfile.cjs && vite build",
+    "build": "gulp minify-css && vite build",
     "preview": "vite preview",
     "gulp": "gulp -f gulpfile.cjs"
   },
