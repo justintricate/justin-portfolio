@@ -1,6 +1,6 @@
 import { render } from "solid-js/web";
 import { Router } from "@solidjs/router";
-import "./style.css";
+import "/out/min.css";
 import NavBar from "./components/navbar";
 import Intro from "./components/intro";
 import About from "./components/aboutme";
