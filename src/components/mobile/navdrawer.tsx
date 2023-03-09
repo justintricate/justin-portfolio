@@ -14,7 +14,7 @@ const NavDrawer = () => {
 
   return (
     <nav>
-      <ol class="nav-drawer" onClick={() => handleHamburger()}>
+      <div class="nav-drawer" onClick={() => handleHamburger()}>
         <a>
           {isOpen() ? (
             <a>
@@ -30,7 +30,7 @@ const NavDrawer = () => {
             </a>
           )}
         </a>
-      </ol>
+      </div>
       <div class={`drawer-container ${isOpen() ? "show" : ""}`}>
         <ul>
           {navLinks.map(({ title, url }) => (
@@ -41,13 +41,20 @@ const NavDrawer = () => {
             </li>
           ))}
           <div class="mobile-social">
-            {socialMedia.map(({ url, icon }) => (
-              <a>
-                <NavLink href={url} target="_blank" rel="noopener noreferrer">
-                  {<Icon icon={icon} />}
-                </NavLink>
-              </a>
-            ))}
+            <ul>
+              {socialMedia.map(({ title, url, icon }) => (
+                <li>
+                  <NavLink
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`A link to Justin Wooley's ${title} page.`}
+                  >
+                    {<Icon icon={icon} />}
+                  </NavLink>
+                </li>
+              ))}
+            </ul>
           </div>
         </ul>
       </div>

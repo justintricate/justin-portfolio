@@ -12,6 +12,7 @@ const CIP = () => {
                 href="https://github.com/justintricate/camera-in-position"
                 target="_blank"
                 rel="noreferrer noopener"
+                aria-label="A link to the GitHub repository for 'Camera in Position.'"
               >
                 <Icon
                   icon="iconoir:github"
@@ -26,6 +27,7 @@ const CIP = () => {
                 href="https://camera-in-position.web.app/"
                 target="_blank"
                 rel="noreferrer noopener"
+                aria-label="A link to the website 'Camera in Position.'"
               >
                 <Icon icon="tabler:external-link" color="#a8b2d1" width="24" />
               </a>

@@ -6,7 +6,7 @@ const Vapor = () => {
       <div class="project-photo-left">
         <img
           src="/vaporss.webp"
-          alt="Screenshot of the website 'Camera in Position.'"
+          alt="Screenshot of the eCommerce website, 'Vapor.'"
         />
       </div>
       <div>
@@ -18,6 +18,7 @@ const Vapor = () => {
                 href="https://github.com/team-fahrenheit/Vapor"
                 target="_blank"
                 rel="noreferrer noopener"
+                aria-label="A link to the GitHub repository for 'Vapor.'"
               >
                 <Icon
                   icon="iconoir:github"
@@ -32,6 +33,7 @@ const Vapor = () => {
                 href="https://vapor.onrender.com/"
                 target="_blank"
                 rel="noreferrer noopener"
+                aria-label="A link to the website 'Vapor.'"
               >
                 <Icon icon="tabler:external-link" color="#a8b2d1" width="24" />
               </a>

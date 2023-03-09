@@ -12,6 +12,7 @@ const SOS = () => {
                 href="https://github.com/justintricate/sink-or-swim"
                 target="_blank"
                 rel="noreferrer noopener"
+                aria-label="A link to the GitHub repository for 'Sink or Swim.'"
               >
                 <Icon
                   icon="iconoir:github"
@@ -26,6 +27,7 @@ const SOS = () => {
                 href="https://sink-or-swim.streamlit.app/"
                 target="_blank"
                 rel="noreferrer noopener"
+                aria-label="A link to the website 'Sink or Swim.'"
               >
                 <Icon icon="tabler:external-link" color="#a8b2d1" width="24" />
               </a>
@@ -60,7 +62,7 @@ const SOS = () => {
       <div class="project-photo-right">
         <img
           src="/sinkorswimss.webp"
-          alt="Screenshot of the website 'Camera in Position.'"
+          alt="Screenshot of the website 'Sink or Swim.'"
         />
       </div>
     </div>

@@ -18,6 +18,7 @@ const Halfsies = () => {
                 href="https://github.com/Team-Celsius/Halfsies"
                 target="_blank"
                 rel="noreferrer noopener"
+                aria-label="A link to the GitHub repository for 'Halfsies.'"
               >
                 <Icon
                   icon="iconoir:github"
@@ -32,6 +33,7 @@ const Halfsies = () => {
                 href="https://halfsies.onrender.com/"
                 target="_blank"
                 rel="noreferrer noopener"
+                aria-label="A link to the website 'Halfsies.'"
               >
                 <Icon icon="tabler:external-link" color="#a8b2d1" width="24" />
               </a>
