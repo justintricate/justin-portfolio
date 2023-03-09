@@ -17,7 +17,6 @@ const Work = () => {
         loop="true"
         navigation="true"
         pagination="true"
-        scrollbar="true"
         style={{
           "--swiper-navigation-color": "#64ffda",
           "--swiper-pagination-color": "#64ffda",
