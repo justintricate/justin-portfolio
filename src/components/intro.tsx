@@ -1,6 +1,6 @@
 const Intro = () => {
   return (
-    <div>
+    <div class="intro-container">
       <p class="monogreen">Hi, my name is</p>
       <h1>
         <div>

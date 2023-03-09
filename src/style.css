@@ -202,8 +202,8 @@ h3 {
 
 .ext-gh {
   display: flex;
-  padding-top: 2%;
-  margin-left: 4%;
+  margin-right: 1%;
+  margin-left: auto;
 }
 
 .project-link:hover {
@@ -213,12 +213,13 @@ h3 {
 
 .title-container {
   display: flex;
+  align-items: center;
   padding: 0;
   margin-bottom: 3%;
 }
 
 .title-container h2 {
-  padding: 0%;
+  padding: 1%;
   margin-top: 0;
   margin-right: 0%;
   margin-bottom: 0;
@@ -463,6 +464,10 @@ button:hover {
   .social-media {
     display: none;
   }
+
+  .intro-container {
+    margin-top: -15%;
+  }
 }
 
 /* this is where images should stop being side by side */
@@ -485,6 +490,7 @@ button:hover {
   .project-photo-right {
     display: flex;
     justify-content: center;
+    order: -1;
     margin-left: 0;
   }
 
@@ -492,6 +498,19 @@ button:hover {
     display: flex;
     justify-content: center;
     margin-right: 0;
+  }
+
+  .project-container {
+    padding-bottom: 32px;
+    border-bottom: 3px solid;
+    margin-bottom: 32px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(
+      to right,
+      rgb(1 14 32 / 0%),
+      rgb(1 14 32 / 100%),
+      rgb(1 14 32 / 0%)
+    );
   }
 
   .project-photo-left img {
@@ -554,5 +573,9 @@ button:hover {
   .intro-p-style {
     margin-right: 20%;
     font-size: 1rem;
+  }
+
+  .intro-container {
+    margin-top: -15%;
   }
 }

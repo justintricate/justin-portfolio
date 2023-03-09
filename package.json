@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite && npm run gulp",
     "build": "gulp -f gulpfile.cjs && vite build",
     "preview": "vite preview",
     "gulp": "gulp -f gulpfile.cjs"
