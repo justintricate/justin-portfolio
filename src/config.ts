@@ -17,19 +17,19 @@ export const socialMedia = [
 
 export const navLinks = [
   {
-    title: "About",
+    title: "ABOUT",
     url: "#about",
   },
   {
-    title: "Projects",
+    title: "PROJECTS",
     url: "#projects",
   },
   {
-    title: "Experience",
+    title: "EXPERIENCE",
     url: "#jobs",
   },
   {
-    title: "Contact",
+    title: "CONTACT",
     url: "#contact",
   },
 ];

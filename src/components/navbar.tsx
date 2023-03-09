@@ -41,31 +41,27 @@ const NavBar = () => {
   }, []);
 
   return (
-    <nav>
-      <ol class={`navigation ${scrollDirection()}`}>
-        <a href="#" class="icon-link">
-          <Icon icon="ic:twotone-code-off" width="48" class="logo-icon" />
-        </a>
+    <ol class={`navigation ${scrollDirection()}`}>
+      <a href="#" class="icon-link">
+        <Icon icon="ic:twotone-code-off" width="48" class="logo-icon" />
+      </a>
 
-        {navLinks.map(({ title, url }) => (
-          <li>
-            <NavLink href={url} onClick={() => handleNavItemClick()}>
-              {title}
-            </NavLink>
-          </li>
-        ))}
-        <a
-          href="/resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={"margin-left: -20px;padding:0"}
-        >
-          <button style={" margin-left: 1em; margin-right: 2.5em"}>
-            Resume
-          </button>
-        </a>
-      </ol>
-    </nav>
+      {navLinks.map(({ title, url }) => (
+        <li>
+          <NavLink href={url} onClick={() => handleNavItemClick()}>
+            {title}
+          </NavLink>
+        </li>
+      ))}
+      <a
+        href="/resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={"margin-left: -20px;padding:0"}
+      >
+        <button style={" margin-left: 1em; margin-right: 2.5em"}>Resume</button>
+      </a>
+    </ol>
   );
 };
 
