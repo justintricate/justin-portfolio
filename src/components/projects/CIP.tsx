@@ -14,7 +14,7 @@ const CIP = () => {
                 rel="noreferrer noopener"
               >
                 <Icon
-                  icon="tabler:brand-github"
+                  icon="iconoir:github"
                   color="#a8b2d1"
                   width="24"
                   style={{ "margin-right": "4px" }}
