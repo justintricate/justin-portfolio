@@ -138,6 +138,22 @@ h3 {
   margin-right: auto;
 }
 
+.navigation span {
+  padding: 0.8em;
+  border: 1px solid #64ffda;
+  border-radius: 4px;
+  margin-left: 1.5rem;
+  background-color: transparent;
+  color: #64ffda;
+  font-family: "Source Code Pro", monospace;
+  font-size: 1rem;
+}
+
+.navigation span:hover {
+  background-color: rgb(100 255 218 / 10%);
+  cursor: pointer;
+}
+
 .social-media a {
   display: flex;
   height: 100%;

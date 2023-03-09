@@ -41,35 +41,37 @@ const NavBar = () => {
   }, []);
 
   return (
-    <ol class={`navigation ${scrollDirection()}`}>
-      <li class="home-logo">
-        <a
-          href="#"
-          class="icon-link"
-          aria-label="A logo icon that returns you to the top of the page."
-        >
-          <Icon icon="ic:twotone-code-off" width="48" class="logo-icon" />
-        </a>
-      </li>
-
-      {navLinks.map(({ title, url }) => (
-        <li>
-          <NavLink href={url} onClick={() => handleNavItemClick()}>
-            {title}
-          </NavLink>
+    <nav>
+      <ol class={`navigation ${scrollDirection()}`}>
+        <li class="home-logo">
+          <a
+            href="#"
+            class="icon-link"
+            aria-label="A logo icon that returns you to the top of the page."
+          >
+            <Icon icon="ic:twotone-code-off" width="48" class="logo-icon" />
+          </a>
         </li>
-      ))}
-      <li class="resume-li">
-        <a
-          href="/resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="A button that opens Justin Wooley's PDF resume."
-        >
-          <button>Resume</button>
-        </a>
-      </li>
-    </ol>
+
+        {navLinks.map(({ title, url }) => (
+          <li>
+            <NavLink href={url} onClick={() => handleNavItemClick()}>
+              {title}
+            </NavLink>
+          </li>
+        ))}
+        <li class="resume-li">
+          <span
+            role="button"
+            tabindex="0"
+            onClick={() => window.open("/resume.pdf")}
+            aria-label="A button that opens Justin Wooley's PDF resume."
+          >
+            Resume
+          </span>
+        </li>
+      </ol>
+    </nav>
   );
 };
 

@@ -40,22 +40,21 @@ const NavDrawer = () => {
               </NavLink>
             </li>
           ))}
-          <div class="mobile-social">
-            <ul>
-              {socialMedia.map(({ title, url, icon }) => (
-                <li>
-                  <NavLink
-                    href={url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={`A link to Justin Wooley's ${title} page.`}
-                  >
-                    {<Icon icon={icon} />}
-                  </NavLink>
-                </li>
-              ))}
-            </ul>
-          </div>
+
+          <ul class="mobile-social">
+            {socialMedia.map(({ title, url, icon }) => (
+              <li>
+                <NavLink
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`A link to Justin Wooley's ${title} page.`}
+                >
+                  {<Icon icon={icon} />}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
         </ul>
       </div>
     </nav>
