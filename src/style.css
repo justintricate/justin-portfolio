@@ -334,7 +334,7 @@ h3 {
 }
 
 .logo-icon:hover {
-  transform: translateY(-7%);
+  transform: translateY(-6%);
 }
 
 .mobile-social {
@@ -400,7 +400,7 @@ button:hover {
 
 .social-media a:hover {
   color: #64ffda;
-  transform: translateY(-4%);
+  transform: translateY(-4%) translateX(4%);
 }
 
 .social-media::before {
