@@ -1,5 +1,5 @@
 import { NavLink } from "@solidjs/router";
-import { navLinks } from "../../../src/config";
+import { navLinks, socialMedia } from "../../../src/config";
 import { createSignal } from "solid-js";
 import { Icon } from "@iconify-icon/solid";
 
@@ -40,6 +40,15 @@ const NavDrawer = () => {
               </NavLink>
             </li>
           ))}
+          <div class="mobile-social">
+            {socialMedia.map(({ url, icon }) => (
+              <a>
+                <NavLink href={url} target="_blank" rel="noopener noreferrer">
+                  {<Icon icon={icon} />}
+                </NavLink>
+              </a>
+            ))}
+          </div>
         </ul>
       </div>
     </nav>
