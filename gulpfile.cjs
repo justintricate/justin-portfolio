@@ -2,16 +2,17 @@ const gulp = require("gulp");
 const cssnano = require("gulp-cssnano");
 const rename = require("gulp-rename");
 
-gulp.task("minify-css", function () {
+function minifyCss() {
   return gulp
     .src("./src/style.css")
     .pipe(cssnano())
     .pipe(rename("min.css"))
     .pipe(gulp.dest("./out"));
-});
+}
 
-gulp.task("watch", function () {
-  gulp.watch("./src/style.css", gulp.series("minify-css"));
-});
+function watch() {
+  gulp.watch("./src/style.css", minifyCss);
+}
 
-gulp.task("default", gulp.series("minify-css", "watch"));
+exports.default = minifyCss;
+exports.watch = watch;

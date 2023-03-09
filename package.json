@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite && npm run gulp",
-    "build": "gulp minify-css && vite build",
+    "dev": "vite",
+    "build": "gulp -f gulpfile.cjs && vite build",
     "preview": "vite preview",
-    "gulp": "gulp -f gulpfile.cjs"
+    "gulp": "gulp -f gulpfile.cjs",
+    "watch": "gulp -f gulpfile.cjs watch"
   },
   "devDependencies": {
     "@iconify-icon/solid": "^1.0.7",
