@@ -14,6 +14,7 @@ const Work = () => {
         <span class="monogreen">03.</span> Experience
       </h1>
       <swiper-container
+        class="swiper-container"
         loop="true"
         navigation="true"
         pagination="true"

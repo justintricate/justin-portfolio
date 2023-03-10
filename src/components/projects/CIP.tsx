@@ -17,7 +17,6 @@ const CIP = () => {
                 <Icon
                   icon="iconoir:github"
                   color="#a8b2d1"
-                  width="24"
                   style={{ "margin-right": "4px" }}
                 />
               </a>
@@ -29,7 +28,7 @@ const CIP = () => {
                 rel="noreferrer noopener"
                 aria-label="A link to the website 'Camera in Position.'"
               >
-                <Icon icon="tabler:external-link" color="#a8b2d1" width="24" />
+                <Icon icon="tabler:external-link" color="#a8b2d1" />
               </a>
             </div>
           </div>

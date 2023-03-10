@@ -18,15 +18,11 @@ const NavDrawer = () => {
         <a>
           {isOpen() ? (
             <a>
-              <Icon icon="ci:close-lg" width="24" class="logo-icon-drawer" />
+              <Icon icon="ci:close-lg" class="logo-icon-drawer" />
             </a>
           ) : (
             <a>
-              <Icon
-                icon="cil:hamburger-menu"
-                width="24"
-                class="logo-icon-drawer"
-              />
+              <Icon icon="cil:hamburger-menu" class="logo-icon-drawer" />
             </a>
           )}
         </a>

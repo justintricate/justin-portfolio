@@ -23,7 +23,6 @@ const Vapor = () => {
                 <Icon
                   icon="iconoir:github"
                   color="#a8b2d1"
-                  width="24"
                   style={{ "margin-right": "4px" }}
                 />
               </a>
@@ -35,7 +34,7 @@ const Vapor = () => {
                 rel="noreferrer noopener"
                 aria-label="A link to the website 'Vapor.'"
               >
-                <Icon icon="tabler:external-link" color="#a8b2d1" width="24" />
+                <Icon icon="tabler:external-link" color="#a8b2d1" />
               </a>
             </div>
           </div>
