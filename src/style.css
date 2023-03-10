@@ -28,25 +28,6 @@ ul {
   list-style-type: "▸";
 }
 
-ol {
-  padding-left: 0;
-  margin-left: 0;
-  counter-reset: item;
-  font-family: "Source Code Pro", monospace;
-  list-style-type: none;
-}
-
-ol li {
-  counter-increment: item;
-}
-
-ol li::before {
-  margin-right: -18px;
-  color: #64ffda;
-  content: counter(item, decimal-leading-zero) ". ";
-  font-size: 14px;
-}
-
 h3 {
   margin-top: -2%;
   font-family: "Source Code Pro", monospace;
@@ -102,6 +83,18 @@ h3 {
   margin-top: 50%;
 }
 
+ol {
+  padding-left: 0;
+  margin-left: 0;
+  font-family: "Source Code Pro", monospace;
+}
+
+ol li::before {
+  margin-right: -18px;
+  color: #64ffda;
+  font-size: 14px;
+}
+
 .navigation {
   position: fixed;
   z-index: 999;
@@ -126,7 +119,12 @@ h3 {
 
 .navigation li {
   color: #a8b2d1;
+  counter-increment: my-counter;
   list-style-type: none;
+}
+
+.navigation li:not(.home-logo, .resume-li)::before {
+  content: counter(my-counter, decimal-leading-zero) ". ";
 }
 
 .navigation a {
@@ -138,8 +136,9 @@ h3 {
   text-transform: uppercase;
 }
 
-.navigation .home-logo {
+.navigation li.home-logo {
   margin-right: auto;
+  counter-reset: my-counter -1;
 }
 
 .navigation span {
@@ -158,6 +157,11 @@ h3 {
   cursor: pointer;
 }
 
+.icon-link {
+  order: -1;
+  margin-right: auto;
+}
+
 .social-media a {
   display: flex;
   height: 100%;
@@ -171,14 +175,6 @@ h3 {
 
 .navigation a:hover {
   color: #64ffda;
-}
-
-.resume-li::before {
-  content: "";
-}
-
-.home-logo::before {
-  content: "";
 }
 
 .nav-drawer {
@@ -219,11 +215,6 @@ h3 {
   margin-top: 25%;
   margin-bottom: 25%;
   text-align: center;
-}
-
-.icon-link {
-  order: -1;
-  margin-right: auto;
 }
 
 .flex-container {
