@@ -8,8 +8,8 @@ register();
 
 const Projects = () => {
   return (
-    <>
-      <h1 class="component" style={{ color: "#ccd6f6" }} id="projects">
+    <div class="component">
+      <h1 class="section-title" id="projects">
         <span class="monogreen">02.</span> Projects
       </h1>
 
@@ -28,7 +28,7 @@ const Projects = () => {
       <div class="project-container">
         <CIP />
       </div>
-    </>
+    </div>
   );
 };
 
