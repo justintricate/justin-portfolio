@@ -42,7 +42,7 @@ const Vapor = () => {
         <p>
           A single page full stack eCommerce store utilizing the Best Buy API.
           Allows users to filter and search items, add to cart, and more.
-          Implements user authentication and password encryption.
+          Implements user authentication and password hashing.
         </p>
         <ul class="about-list">
           <li>

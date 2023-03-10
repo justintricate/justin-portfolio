@@ -323,6 +323,7 @@ ol li::before {
 .logo-icon-drawer {
   padding: 4px;
   border-radius: 9999px;
+  background-color: #0a192f;
   color: #64ffda;
   font-size: 32px;
   transition: transform 0.3s ease-in-out;
@@ -584,6 +585,10 @@ button:hover {
     justify-content: center;
     margin-top: 5%;
     margin-bottom: 5%;
+  }
+
+  #my-photo {
+    order: -1;
   }
 
   #my-photo img {

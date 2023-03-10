@@ -8,7 +8,7 @@ const About = () => {
         <span class="monogreen">01.</span> About Me
       </h1>
       <div class="flex-container">
-        <div>
+        <div id="about-text">
           <p>
             Hello! My name is Justin, and I enjoy creating websites and apps.
             When I was 9 years old, my dad took me to our local Half Price
