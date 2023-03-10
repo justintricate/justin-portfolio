@@ -107,6 +107,7 @@ ol li::before {
   justify-content: space-between;
   padding: 1rem;
   margin: 0;
+  background-color: #0a192f;
   transition: all 0.3s ease-in-out;
 }
 
@@ -193,7 +194,7 @@ ol li::before {
   justify-content: center;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  background-color: rgb(10 25 47 / 50%);
+  background-color: rgb(10 25 47 / 90%);
   color: #ccd6f6;
   transform: translateX(-100%);
   transition: transform 0.3s ease-in-out;
