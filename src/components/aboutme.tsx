@@ -25,7 +25,7 @@ const About = () => {
             FinTech for nearly a decade, as well as 6 years serving in the U.S.
             Army, I am ready to bring my newfound skill set to your team.
           </p>
-          <p>Here's a bit of what I've worked in recently:</p>
+          <p>Here's a bit of what I've worked in lately:</p>
           <ul class="about-list">
             {technologies.map(({ title, icon }) => (
               <li>

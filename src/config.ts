@@ -39,7 +39,7 @@ export const navLinks = [
 
 export const technologies = [
   {
-    title: "JavaScript (ES6+)",
+    title: "JavaScript",
     icon: "logos:javascript",
   },
   {
