@@ -42,7 +42,7 @@ const NavBar = () => {
 
   return (
     <nav>
-      <ol class={`navigation ${scrollDirection()}`}>
+      <ol class={`navigation ${scrollDirection()}`} start="2">
         <li class="home-logo">
           <a
             href="#"

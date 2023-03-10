@@ -394,6 +394,10 @@ button:hover {
   font-size: clamp(12px, 1rem, 1vw);
 }
 
+.section-title {
+  color: #ccd6f6;
+}
+
 .social-media {
   position: fixed;
   bottom: 0;
