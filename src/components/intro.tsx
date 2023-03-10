@@ -1,7 +1,7 @@
 const Intro = () => {
   return (
     <div class="intro-container">
-      <p class="monogreen">Hi, my name is</p>
+      <p class="monogreen">Hello! My name is</p>
       <h1>
         <div>
           <p class="name-style">Justin Wooley</p>

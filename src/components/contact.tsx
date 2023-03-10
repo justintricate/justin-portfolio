@@ -16,7 +16,7 @@ const Contact = () => {
         Whether you have a question, a project in mind, or just want to say hi,
         feel free to drop me a note-- I'll get back to you as soon as I can!
       </p>
-      <a href={`mailto:${email}`}>
+      <a href={`mailto:${email}`} aria-label="A link to send Justin an email.">
         <button class="centered" style={{ "margin-top": "4%" }}>
           Say Hello
         </button>

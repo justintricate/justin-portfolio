@@ -1,3 +1,5 @@
+export const email: string = "justindwooley@gmail.com";
+
 export const socialMedia = [
   {
     title: "GitHub",
@@ -85,5 +87,3 @@ export const technologies = [
     icon: "logos:python",
   },
 ];
-
-export const email: string = "justindwooley@gmail.com";
