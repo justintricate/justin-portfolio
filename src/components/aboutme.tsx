@@ -4,7 +4,7 @@ import { technologies } from "../config";
 const About = () => {
   return (
     <div class="component">
-      <h1 style={{ color: "#ccd6f6" }} id="about">
+      <h1 class="section-title" id="about">
         <span class="monogreen">01.</span> About Me
       </h1>
       <div class="flex-container">

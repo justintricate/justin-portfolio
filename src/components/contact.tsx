@@ -7,7 +7,7 @@ const Contact = () => {
       style={{ "margin-bottom": "45%" }}
       id="contact"
     >
-      <h1 style={{ color: "#ccd6f6", "margin-bottom": "5%" }}>
+      <h1 class="section-title" style={{ "margin-bottom": "3%" }}>
         <span class="monogreen">04.</span> Contact
       </h1>
       <h2 class="centered">Get In Touch</h2>
