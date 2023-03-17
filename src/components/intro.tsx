@@ -13,10 +13,9 @@ const Intro = () => {
   ];
 
   const typewriterEl = (el) => {
-    // initialize TypeIt instance
     const typeit = new TypeIt(el, {
       strings: text,
-      speed: 90,
+      speed: 60,
       lifeLike: false,
       breakLines: false,
       cursorChar: "|",
