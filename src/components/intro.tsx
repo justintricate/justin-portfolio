@@ -16,12 +16,12 @@ const Intro = () => {
     // initialize TypeIt instance
     const typeit = new TypeIt(el, {
       strings: text,
-      speed: 85,
+      speed: 90,
       lifeLike: false,
       breakLines: false,
       cursorChar: "|",
       waitUntilVisible: true,
-      nextStringDelay: [3000, 750],
+      nextStringDelay: [3000, 100],
       loop: true,
     }).go();
 
