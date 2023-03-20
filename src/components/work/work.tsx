@@ -1,5 +1,6 @@
 // @ts-nocheck
 
+import Devs from "./100devs";
 import Trybe from "./trybe";
 import PCB from "./pcb";
 import Army from "./army";
@@ -26,6 +27,11 @@ const Work = () => {
           "--swiper-navigation-sides-offset": "0",
         }}
       >
+        <swiper-slide>
+          <div class="slide-container">
+            <Devs />
+          </div>
+        </swiper-slide>
         <swiper-slide>
           <div class="slide-container">
             <Trybe />

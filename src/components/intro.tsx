@@ -6,9 +6,8 @@ const Intro = () => {
   let text = [
     "craft intuitive user experiences.",
     "optimize for speed and performance.",
-    "find solutions for complex problems.",
     "prioritize accessibility.",
-    "build mobile-friendly designs.",
+    "create mobile-friendly designs.",
     "explore new technologies.",
   ];
 
@@ -22,6 +21,7 @@ const Intro = () => {
       waitUntilVisible: true,
       nextStringDelay: [3000, 100],
       loop: true,
+      loopDelay: 3000,
     }).go();
 
     onCleanup(() => {
