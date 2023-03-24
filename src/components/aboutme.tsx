@@ -20,7 +20,7 @@ const About = () => {
           </p>
           <p>
             Fast-forward to now, I have recently undergone a career change, and
-            completed FullStack Academy's 17-week Full-Time Software Engineering
+            completed Fullstack Academy's 17-week Full-Time Software Engineering
             Immersive course. While I have had the privilege of working on
             FinTech for nearly a decade, as well as 6 years serving in the U.S.
             Army, I am ready to bring my newfound skill set to your team.
