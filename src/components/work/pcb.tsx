@@ -1,6 +1,6 @@
 const PCB = () => {
   return (
-    <div>
+    <>
       <h2>
         Senior Merchant Service Associate <span class="at-symbol">@</span>{" "}
         PlainsCapital Bank
@@ -20,7 +20,7 @@ const PCB = () => {
           million/year.
         </li>
       </ul>
-    </div>
+    </>
   );
 };
 

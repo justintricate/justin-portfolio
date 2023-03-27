@@ -1,6 +1,6 @@
 const Army = () => {
   return (
-    <div>
+    <>
       <h2>
         68W Combat Medic Specialist <span class="at-symbol">@</span> United
         States Army
@@ -17,7 +17,7 @@ const Army = () => {
         </li>
         <li>Held “Secret” Security Clearance.</li>
       </ul>
-    </div>
+    </>
   );
 };
 

@@ -1,6 +1,6 @@
 const Trybe = () => {
   return (
-    <div>
+    <>
       <h2>
         Operations Manager <span class="at-symbol">@</span> Trybe Payment
         Solutions
@@ -17,7 +17,7 @@ const Trybe = () => {
           application.
         </li>
       </ul>
-    </div>
+    </>
   );
 };
 

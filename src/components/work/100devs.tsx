@@ -1,6 +1,6 @@
 const Devs = () => {
   return (
-    <div>
+    <>
       <h2>
         Software Engineer <span class="at-symbol">@</span> 100Devs
       </h2>
@@ -18,7 +18,7 @@ const Devs = () => {
           20k+ registered users.
         </li>
       </ul>
-    </div>
+    </>
   );
 };
 
