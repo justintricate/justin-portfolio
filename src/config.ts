@@ -59,6 +59,10 @@ export const technologies = [
     icon: "logos:svelte-icon",
   },
   {
+    title: "WordPress",
+    icon: "ic:baseline-wordpress",
+  },
+  {
     title: "React Native",
     icon: "logos:react",
   },
