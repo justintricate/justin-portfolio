@@ -2,6 +2,7 @@ import CIP from "./CIP";
 import Halfsies from "./halfsies";
 import SOS from "./sinkorswim";
 import Vapor from "./vapor";
+import Tumblweed from "./tumbleweed";
 import { register } from "swiper/element/bundle";
 
 register();
@@ -12,6 +13,10 @@ const Projects = () => {
       <h1 class="section-title" id="projects">
         <span class="monogreen">02.</span> Projects
       </h1>
+
+      <div class="project-container">
+        <Tumblweed />
+      </div>
 
       <div class="project-container">
         <Halfsies />
