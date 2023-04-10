@@ -22,8 +22,8 @@ const Tumblweed = () => {
         <p>
           A wordpress-based landing page for a West Texas-based coffee shop.
           Uses mostly static information, for low upkeep to suit the client's
-          business needs. Incorporates online ordering, catering orders, and a
-          mobile responsive layout.
+          business needs. Incorporates online ordering, catering, and a mobile
+          responsive layout.
         </p>
         <ul class="about-list">
           <li>
