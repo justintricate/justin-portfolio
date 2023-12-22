@@ -2,7 +2,6 @@ import { render } from "solid-js/web";
 import { Router } from "@solidjs/router";
 import "../out/min.css";
 import NavBar from "./components/navbar";
-import Intro from "./components/intro";
 import About from "./components/aboutme";
 import Work from "./components/work/work";
 import Projects from "./components/projects/projects";
@@ -16,7 +15,6 @@ const App = () => {
       <Social />
       <NavDrawer />
       <NavBar />
-      <Intro />
       <About />
       <Projects />
       <Work />

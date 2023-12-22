@@ -39,49 +39,26 @@ export const navLinks = [
 
 export const technologies = [
   {
-    title: "JavaScript",
-    icon: "logos:javascript",
+    title: "SQL",
+    icon: "vscode-icons:file-type-sql",
   },
   {
-    title: "TypeScript",
-    icon: "logos:typescript-icon",
+    title: "Excel",
+    icon: "vscode-icons:file-type-excel",
   },
   {
-    title: "React",
-    icon: "logos:react",
+    title: "Tableau",
+    icon: "logos:tableau-icon",
   },
   {
-    title: "SolidJS",
-    icon: "logos:solidjs-icon",
-  },
-  {
-    title: "Svelte",
-    icon: "logos:svelte-icon",
-  },
-  {
-    title: "WordPress",
-    icon: "ic:baseline-wordpress",
-  },
-  {
-    title: "React Native",
-    icon: "logos:react",
-  },
-  {
-    title: "React Redux",
-    icon: "logos:redux",
-  },
-  {
-    title: "Node.js",
-    icon: "vscode-icons:file-type-node",
+    title: "R",
+    icon: "devicon:r",
   },
   {
     title: "Google Cloud Vision AI",
     icon: "logos:google-cloud",
   },
-  {
-    title: "Express",
-    icon: "simple-icons:express",
-  },
+
   {
     title: "PostgreSQL",
     icon: "logos:postgresql",
@@ -89,5 +66,9 @@ export const technologies = [
   {
     title: "Python",
     icon: "logos:python",
+  },
+  {
+    title: "JavaScript",
+    icon: "logos:javascript",
   },
 ];

@@ -12,8 +12,12 @@ const PCB = () => {
           bank in Texas.
         </li>
         <li>
-          Provided data analysis and comprehensive reporting both internally and
+          Provided business data analysis, and comprehensive financial reporting
           to clients.
+        </li>
+        <li>
+          Provided internal reports to guide and inform sales goals, and
+          marketing.
         </li>
         <li>
           Onboarded and maintained our portfolio’s largest customer, at $30

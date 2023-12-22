@@ -9,12 +9,17 @@ const Trybe = () => {
       <ul>
         <li>Created policy/SOP infrastructure for early-stage startup</li>
         <li>
-          Managed multiple aspects of the company: equipment tracking, technical
-          support, liquidity reporting, compliance, and more.
+          Managed equipment tracking, technical support, liquidity reporting,
+          compliance, and more.
         </li>
         <li>
           Oversaw the build and launch of our own in-house point-of-sale mobile
           application.
+        </li>
+        <li>
+          Implemented data-driven approach to identify common technical support
+          issues, improving customer satisfaction polling in onboarding
+          questionnaires.
         </li>
       </ul>
     </>
