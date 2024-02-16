@@ -20,7 +20,7 @@ const PCB = () => {
           marketing.
         </li>
         <li>
-          Onboarded and maintained our portfolio’s largest customer, at $30
+          On-boarded and maintained our portfolio’s largest customer, at $30
           million/year.
         </li>
       </ul>

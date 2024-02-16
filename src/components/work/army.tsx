@@ -8,14 +8,23 @@ const Army = () => {
       <h3>2011 - 2017</h3>
       <ul>
         <li>
-          Provided emergency medical treatment and limited primary care to over
-          800 soldiers.
+          Served as a squad leader over a battalion aid station, performing
+          emergency medical procedures as well as routine patient care,
+          vaccinations, and assessments.
         </li>
         <li>
-          Received 4 awards including the Texas Adjutant General’s Individual
-          Award.
+          Received comprehensive mental health care training, and taught
+          specialized programs focused on suicide prevention and PTSD awareness
+          to fellow soldiers.
         </li>
-        <li>Held “Secret” Security Clearance.</li>
+        <li>
+          Provided immediate crisis intervention and emotional support for
+          soldiers experiencing acute mental health challenges.
+        </li>
+        <li>
+          Participated in an overseas training program at USAG Hohenfels
+          designed to prepare soldiers readying for deployment.
+        </li>
       </ul>
     </>
   );

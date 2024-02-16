@@ -1,3 +1,4 @@
+import CIP from "./CIP";
 import Halfsies from "./halfsies";
 import SOS from "./sinkorswim";
 import { register } from "swiper/element/bundle";
@@ -15,6 +16,9 @@ const Projects = () => {
       </div>
       <div class="project-container">
         <Halfsies />
+      </div>
+      <div class="project-container">
+        <CIP />
       </div>
     </div>
   );

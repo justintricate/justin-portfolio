@@ -10,17 +10,14 @@ const About = () => {
       <div class="flex-container">
         <div id="about-text">
           <p>
-            Hello! My name is Justin. I am an experienced data analyst, who
-            enjoys a well-crafted spreadsheet. I love gathering and analyzing
-            data (no really!) I am the type of person that will do a week's
-            research for a 25 dollar purchase, and have been told my product
-            research for larger buys borderlines on PhD levels. (In jest, of
-            course. Probably...)
+            Hello! My name is Justin. I am an experienced tech professional who
+            loves to combine technology & data, with helping others. My passion
+            is rooted in making a positive impact.
           </p>
           <p>
             While I have had the privilege of working in FinTech for nearly a
-            decade, as well as 6 years serving in the U.S. Army, I am ready to
-            bring my newfound skill set to your team.
+            decade, as well as 6 years serving as a medic in the U.S. Army, I am
+            ready to bring my newfound skill set to your team.
           </p>
           <p>Here's a bit of what I've worked with lately:</p>
           <ul class="about-list">
