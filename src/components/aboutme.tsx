@@ -15,11 +15,10 @@ const About = () => {
             is rooted in making a positive impact.
           </p>
           <p>
-            While I have had the privilege of working in FinTech for nearly a
-            decade, as well as 6 years serving as a medic in the U.S. Army, I am
-            ready to bring my newfound skill set to your team.
+            I had the privilege of working in FinTech for nearly a
+            decade, as well as 6 years serving as a medic in the U.S. Army, and am currently a Patient Gaming Specialist in Portland, OR.
           </p>
-          <p>Here's a bit of what I've worked with lately:</p>
+          <p>Here's a bit of what I've worked with in the past:</p>
           <ul class="about-list">
             {technologies.map(({ title, icon }) => (
               <li>
