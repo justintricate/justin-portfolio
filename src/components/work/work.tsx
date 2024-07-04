@@ -4,6 +4,7 @@ import Devs from "./100devs";
 import Trybe from "./trybe";
 import PCB from "./pcb";
 import Army from "./army";
+import DCH from "./DCH";
 import Treasury from "./treasury";
 import { register } from "swiper/element/bundle";
 
@@ -28,6 +29,11 @@ const Work = () => {
           "--swiper-navigation-sides-offset": "0",
         }}
       >
+                <swiper-slide>
+          <div class="slide-container">
+            <DCH />
+          </div>
+        </swiper-slide>
         <swiper-slide>
           <div class="slide-container">
             <Devs />
